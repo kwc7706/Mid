@@ -1,0 +1,72 @@
+/* 기본 스타일 설정 */
+body {
+  font-family: Arial, sans-serif;
+  margin: 1px;
+  padding: 1px;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+section {
+  padding: 20px;
+}
+
+button,
+a.btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+button:hover,
+a.btn:hover {
+  background-color: #0056b3;
+}
+
+/* 반응형 웹 디자인 */
+@media (max-width: 768px) {
+  header nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+/* SECON 이미지 스타일 */
+.secon-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}

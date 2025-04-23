@@ -1,0 +1,3 @@
+{
+  "route": [{ "handle": "filesystem" }, { "src": "/.*", "dest": "/mid.html"}]
+}
